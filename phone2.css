@@ -1,0 +1,10 @@
+.glow{
+    font-size: 39px;
+}
+
+body{
+    width: 80%;
+}
+main{
+    flex-direction: column; 
+}

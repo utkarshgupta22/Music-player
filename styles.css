@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.8) url(https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    /* background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; */
+    margin: auto;
+}
+main{
+    width: 80%;
+    height: 100%;
+    border: 5px solid white;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+div{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    border: none;
+    background: transparent;
+    margin: 10%;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+    outline: none;
+}
+
+button:hover{
+    content: '';
+    padding: 20px;
+    opacity: 90%;
+}
+
+.heading{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 46%;
+}
+.heading h1{
+    color: rgb(250, 245, 245);
+    font-family: 'Monoton', cursive;
+}
+
+
+.glow {
+    font-size: 80px;
+    color: rgb(255, 250, 250);
+    text-align: center;
+    -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+    -moz-animation: glow 0.1s ease-in-out infinite alternate;
+    animation: glow 0.1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(82, 79, 79), 0 0 20px rgb(255, 255, 255), 0 0 30px #36bd31, 0 0 40px #2333c4, 0 0 50px #0ff5e9, 0 0 60px #c6d313, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(70, 68, 68), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

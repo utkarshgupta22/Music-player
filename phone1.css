@@ -1,0 +1,11 @@
+.heading{
+    /* font-size: 1rem; */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.glow{
+    font-size: 2rem;
+}
