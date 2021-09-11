@@ -33,7 +33,7 @@ const playsong = (id) => {
             mysong.play();
             break;
         case 8:
-            mysong.src = 'music/sugar.mp3';
+            mysong.src = 'https://github.com/utkarshgupta22/Music-player/blob/main/music/Sugar.mp3';
             mysong.play();
             break;
         case 9:
